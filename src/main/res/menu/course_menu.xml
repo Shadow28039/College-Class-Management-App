@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+    android:id="@+id/notifications"
+    android:title="Notifications"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/StartDateAlert"
+                android:title="Course Start Alert" />
+            <item
+                android:id="@+id/EndDateAlert"
+                android:title="Course End Alert" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Status"
+        android:title="Class Status"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/StatusPending"
+                android:title="Set To Pending"/>
+            <item
+                android:id="@+id/StatusDropped"
+                android:title="Set To Dropped"/>
+            <item
+                android:id="@+id/StatusCompleted"
+                android:title="Set To Completed"/>
+            <item
+                android:id="@+id/StatusInProgress"
+                android:title="Set To In Progress"/>
+        </menu>
+    </item>
+    <item
+    android:id="@+id/DeleteCourse"
+    android:title="Delete Course"
+        app:showAsAction="never" />
+</menu>

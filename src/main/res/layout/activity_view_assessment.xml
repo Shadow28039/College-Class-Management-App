@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Interface.View_Assessment_Activity">
+
+    <TextView
+        android:id="@+id/view_Assessment_Info"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="335dp"
+        android:text=""
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_Assessment_DueDate"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="397dp"
+        android:text=""
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_Assessment_Title"
+        android:layout_width="230dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="455dp"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessment_view_textView11"
+        android:layout_width="112dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="396dp"
+        android:text="Due Date:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessment_view_textView10"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="335dp"
+        android:text="Info:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessment_view_textView9"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="455dp"
+        android:text="Title:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/view_Assessment_Type"
+        android:layout_width="206dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="521dp"
+        android:text=""
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assessment_view_textView6"
+        android:layout_width="83dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="519dp"
+        android:text="Type:"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="44dp"
+        android:clickable="true"
+        android:onClick="View_Assessment_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
